@@ -3,3 +3,5 @@
 def divisible_by(numbers, divisor)
   numbers.keep_if {|n| n % divisor == 0}
 end
+
+divisible_by([1, 2, 3, 4, 5, 6], 2)

@@ -1,6 +1,5 @@
 #https://www.codewars.com/kata/reverse-every-other-word-in-the-string/train/ruby
 
-
 def reverse_alternate(string)
   arr = string.split(" ")
   arr.map!.with_index {|i, n| (n+1)%2 == 0? i.reverse : i}

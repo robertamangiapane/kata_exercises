@@ -1,3 +1,5 @@
+#https://www.codewars.com/kata/534ffb35edb1241eda0015fe
+
 def score_hand(cards)
   score = 0
   axes = cards.count("A")
